@@ -18,3 +18,8 @@ If a new file is added to the local folder then:
 
     then commit the changes:
         >>git commit -m "Some changes"
+
+    generate a ssh key locally if not done before
+
+    then we need to push the changes:
+        >>git push origin master (origin is the location, master is the branch)
