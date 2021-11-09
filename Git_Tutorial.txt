@@ -1,0 +1,20 @@
+Git Refresher:
+
+Basic Git Commands:
+
+    clone -> bring a repository to your local machine
+    add -> track your file and changes in Git
+    commit -> save your files in Git
+    push -> upload Git commits to a remote repo, like Github
+    pull -> pull down changes from remote repository like Github
+
+    >>git status -> shows all the changes made but have not been commited
+
+If a new file is added to the local folder then:
+    track the file before it can be commited to git
+        to do this you need to use:
+            >>git add . (. means track all files)
+            >>git add <filename or folder> (in case you want to track only individual folders)
+
+    then commit the changes:
+        >>git commit -m "Some changes"
